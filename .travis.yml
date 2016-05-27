@@ -1,0 +1,6 @@
+language: java
+jdk: oraclejdk8
+before_install: nvm install 6
+script: npm i
+cache.directories: node_modules
+notifications.on_failure: change # always|never
